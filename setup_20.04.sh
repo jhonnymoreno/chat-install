@@ -385,6 +385,10 @@ function configure_systemd_services() {
   cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.2.service /etc/systemd/system/chatwoot-worker.2.service
   cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.3.service /etc/systemd/system/chatwoot-worker.3.service
   cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.4.service /etc/systemd/system/chatwoot-worker.4.service
+  cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.5.service /etc/systemd/system/chatwoot-worker.5.service
+  cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.6.service /etc/systemd/system/chatwoot-worker.6.service
+  cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.7.service /etc/systemd/system/chatwoot-worker.7.service
+  cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.8.service /etc/systemd/system/chatwoot-worker.8.service
   cp /home/chatwoot/chatwoot/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
 
   cp /home/chatwoot/chatwoot/deployment/chatwoot /etc/sudoers.d/chatwoot
@@ -831,6 +835,10 @@ EOF
   cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.2.service /etc/systemd/system/chatwoot-worker.2.service
   cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.3.service /etc/systemd/system/chatwoot-worker.3.service
   cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.4.service /etc/systemd/system/chatwoot-worker.4.service
+  cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.5.service /etc/systemd/system/chatwoot-worker.5.service
+  cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.6.service /etc/systemd/system/chatwoot-worker.6.service
+  cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.7.service /etc/systemd/system/chatwoot-worker.7.service
+  cp /home/chatwoot/chatwoot/deployment/chatwoot-worker.8.service /etc/systemd/system/chatwoot-worker.8.service
   cp /home/chatwoot/chatwoot/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
 
   cp /home/chatwoot/chatwoot/deployment/chatwoot /etc/sudoers.d/chatwoot
